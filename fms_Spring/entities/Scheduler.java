@@ -13,7 +13,6 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Entity
-@Table(name="Scheduler")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
