@@ -17,7 +17,7 @@ public class SchedulerServiceImpl implements SchedulerService {
 	
 
 	public Scheduler getScheduler(String schedulerName ) {
-		Scheduler scheduler= repo.findByShedulerName(schedulerName);
+		Scheduler scheduler= repo.findBySchedulerName(schedulerName);
 		return scheduler;
 	}
 
