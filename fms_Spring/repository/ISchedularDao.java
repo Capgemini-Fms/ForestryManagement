@@ -11,7 +11,7 @@ import com.cap.fms.entities.Scheduler;
 
 @Repository
 public interface ISchedularDao extends JpaRepository<Scheduler, String>{
-	Scheduler findByShedulerName(String schedulerName);//String
+	Scheduler findBySchedulerName(String schedulerName);//String
 	//boolean saveScheduler(Scheduler scheduler);//Scheduler
 	//boolean updateScheduler(Scheduler scheduler);//Scheduler
 	
