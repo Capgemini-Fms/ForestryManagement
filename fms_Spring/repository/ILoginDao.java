@@ -16,5 +16,5 @@ public interface ILoginDao extends JpaRepository<User, String> {
 
 	
 	@Query("Delete from User where userName=:userName")
-	User deleteByUserName(String userId);//User
+	User deleteByUserName(String userName);//User
 }
